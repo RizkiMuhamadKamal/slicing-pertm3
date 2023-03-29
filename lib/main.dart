@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pertemuan3_slice/pages/get-started-page.dart';
+import 'package:pertemuan3_slice/pages/halaman3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // ignore: prefer_const_constructors
-      home: GetStartedpage ()
+      home: Halaman3 ()
     );
   }
 }
